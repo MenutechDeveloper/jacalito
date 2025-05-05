@@ -1,0 +1,158 @@
+body {
+  overflow-x: hidden;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.navbar img {
+  width: 160px;
+}
+
+@media (max-width: 992px) {
+  .navbar img {
+    width: 120px;
+  }
+}
+
+.portada video {
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .portada {
+    width: 100%;
+  }
+}
+
+.orderbotton {
+  text-decoration: none;
+  color: white;
+  background: #e49503;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+.orderbotton:hover {
+  background: #cf8703;
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 992px) {
+  .about {
+    flex-direction: column;
+  }
+}
+
+.about img {
+  width: 90%;
+}
+
+.about p {
+  padding: 30px;
+  width: 100%;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+@media (max-width: 992px) {
+  .about p {
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+  }
+}
+
+.about h1 {
+  text-align: center;
+  font-weight: 999;
+  font-family: inherit;
+  margin-top: 10px;
+  color: #c80404;
+}
+
+.about button {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.portada2 {
+  width: 100%;
+  height: 450px;
+  background: url("./jacalitoport5.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 992px) {
+  .portada2 {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+#info {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+.info h1 {
+  color: #c60000;
+}
+
+a {
+  margin-top: 10px;
+}
+
+.Slide-iconos {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.mapa {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.mapa iframe {
+  width: 90%;
+  height: 300px;
+  border: 2px orange solid;
+  border-radius: 15px;
+}
+
+@media (max-width: 992px) {
+  .mapa {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
